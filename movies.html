@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="title">Movies List</h1>
+
+    <input type="text" id="movieName" placeholder="Search Movies" onkeyup="searchMovie()">
+    <button class="button" onclick="sortAsec()">Rating Asc</button>
+    <button class="button" onclick="sortDsec()">Rating Desc</button>
+
+    <div class="movies-container" id="movies">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
