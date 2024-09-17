@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.title {
+    color: hsl(264, 37%, 55%);
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(100, 71, 145);
+    border-radius: 5px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+.movies-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    border: 2px solid black; /* Add border */
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
